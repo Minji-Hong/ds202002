@@ -29,7 +29,7 @@ public class Main {
 		result = new boolean[100]; result_index=0;
 		
 		Scanner sc = new Scanner(System.in);
-		int T = sc.nextInt(); // Test할 괄호 문자열 개수
+		int T = sc.nextInt(); // 테스트할 괄호 문자열 개수
 		
 		for(int i=0; i<T; i++) {
 			top = -1; stack = new char[100];
