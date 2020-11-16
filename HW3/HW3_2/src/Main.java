@@ -7,7 +7,7 @@ class Queue<E>{ // 배열을 이용한 큐 클래스
 	Queue(){
 		front=0;
 		rear=0;
-		size=100;
+		size=1000;
 		data=(E[])new Object[size];
 	}
 	// 큐에 데이터를 추가하는 함수
